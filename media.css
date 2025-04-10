@@ -1,0 +1,122 @@
+
+@media (max-width: 767px) {
+    .logo {
+        position: fixed !important;
+        max-width: 50% !important;
+        top: 5px !important;
+    }
+    .countdown {
+        position: fixed !important;
+        font-size: 2.5rem !important;
+        top: 140px !important;
+        text-align: center;
+    }
+    .post {
+        position: fixed !important;
+        max-width: 45% !important;
+        top: 330px !important;
+    }
+    .wearehitboys {
+        position: fixed !important;
+        max-width: 45% !important;
+        top: 480px !important;
+    }
+}
+
+/* Tabletas (portrait, entre 768px y 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .logo {
+        max-width: 40%;
+        top: 10px;
+    }
+    .countdown {
+        font-size: 4rem;
+        top: 210px;
+        text-align: center;
+    }
+    .post {
+        max-width: 40%;
+        top: 450px;
+    }
+    .wearehitboys {
+        max-width: 30%;
+        top: 720px;
+    }
+}
+
+/* Tabletas (landscape, entre 1025px y 1280px) */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .logo {
+        max-width: 50%;
+        top: 40px;
+    }
+    .countdown {
+        font-size: 3rem;
+        top: 350px;
+    }
+    .post {
+        max-width: 50%;
+        top: 550px;
+    }
+    .wearehitboys {
+        max-width: 50%;
+        top: 750px;
+    }
+}
+/* Para MacBook Air con resolución 1366x768px */
+@media (max-width: 1366px) {
+    .logo {
+        max-width: 15%;  /* Reducir tamaño del logo */
+        top: 20px;
+    }
+    .countdown {
+        font-size: 3rem;  /* Reducir tamaño de fuente */
+        top: 230px;
+    }
+    .post {
+        max-width: 15%;  /* Reducir tamaño de la imagen */
+        top: 380px;
+    }
+    .wearehitboys {
+        max-width: 15%;  /* Reducir tamaño de la nueva imagen */
+        top: 550px;
+    }
+}
+
+/* Para MacBook Air con resolución Retina 2560x1600px */
+@media (min-width: 1601px) {
+    .logo {
+        max-width: 8%;  /* Logo más pequeño en pantallas más grandes */
+        top: 20px;
+    }
+    .countdown {
+        font-size: 2.5rem;  /* Texto más pequeño en pantallas grandes */
+        top: 300px;
+    }
+    .post {
+        max-width: 10%;  /* Ajustar tamaño de la imagen de post */
+        top: 450px;
+    }
+    .wearehitboys {
+        max-width: 10%;  /* Ajustar tamaño de la nueva imagen */
+        top: 650px;
+    }
+}
+@media (max-width: 900px) and (max-height: 1200px) {
+    .logo {
+        max-width: 30%;  /* Ajustar el tamaño del logo */
+        top: 30px;
+    }
+    .countdown {
+        font-size: 3rem; /* Reducir tamaño del contador */
+        top: 320px;
+    }
+    .post {
+        max-width: 25%;  /* Ajustar tamaño del post */
+        top: 470px;
+    }
+    .wearehitboys {
+        max-width: 30%;
+        top: 700px;
+    }
+}
